@@ -1,0 +1,113 @@
+@font-face
+{
+    font-family: "Baskertville";
+    src: url("baskerville/Online_Web_Fonts.url")
+
+}
+
+body
+{
+    background-color: #c8c8c8;
+    margin: auto;
+    width: 80vw;
+   /* margin: 135px;
+    margin-top: 20px; */
+    font-family: Arial, Helvetica, sans-serif ;
+}
+/*main {
+    width: 60%;
+    margin: 50px;
+} */
+
+p{
+    text-align:initial;
+}
+h1
+{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Baskertville", serif;
+    color: black;
+}
+    
+a {
+    color:#cf0025 ;
+    font-weight: bold;
+}
+
+h2
+{
+    color:#cf0025;
+}
+
+th{
+    padding: 8px;
+}
+
+td{
+    padding:8px;
+}
+#lgentete{
+    background: #333333;
+    color:white
+}
+tr:hover
+{
+    background: #999999;
+    cursor: pointer;
+}
+.background
+{
+    background: #dddd;
+}
+figure
+{
+    border: 2px solid #cf0025;
+    width: 100%;
+    border-radius:1em ;
+    background: #333333;
+    text-align: center;
+    color: rgb(245, 244, 244);
+    margin-left:0px;
+}
+figcaption
+{
+    font-style: italic;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 60px;
+   
+    
+}
+img
+{
+margin : 40px; 
+margin-bottom: 50px;
+width: 60em;
+text-align: center;
+}
+table
+{
+    border-collapse: collapse;
+
+}
+#protocole
+{
+    line-height: 30px;
+    color: #4e41ae;
+    border:dashed 3px  #4e41ae;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background:#b7b7b7;
+    margin: 0px 50px 0px 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.td{
+    font-weight: bold;
+}
