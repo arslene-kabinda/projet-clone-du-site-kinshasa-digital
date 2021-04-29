@@ -500,14 +500,16 @@ h5{
 }
 .contenaire6{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 
 }
 .tableau{
-    margin: 0px 25px;
+    margin: 0px 15px;
 }
 #tab1{
-    width: 45vw;
+    width: 53vw;
+    margin-left: -10px;
 }
 #tab1 h3,#tab2 h3{
     color: white;
@@ -547,10 +549,10 @@ h5{
     width: 50px;
 }
 #tab2{
-    width: 30vw;
+    width: 37vw;
     background-color: #F1F0F3;
     border-radius: 0px 0px 20px 20px;
-
+   
 }
 #tab2_head{
     height: 70px;
@@ -567,6 +569,7 @@ h5{
     line-height: 1.5em;
     list-style-position: inside;
     width: 80%;
+   
 }
 #tab2_texte{
     background-color: #DFDEE1;
@@ -738,13 +741,15 @@ h4{
 #cretaion_emploie{
     display: flex;
     justify-content: center;
+  
+    
    
-    margin-left: 30px;
-
+   
+    
 }
 #emploi1{
-    width: 38vw;
-    
+    width: 45vw;
+  
    
 
 }
@@ -781,7 +786,9 @@ span{
     display: flex;
     width: 45vw;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 22px;
+   
+  
    
 }
 h3{
@@ -804,7 +811,7 @@ h3{
 }
 .bloc_emploi2{
     
-    width: 42%;
+    width: 45%;
     margin: 10px;
     border-radius: 20px;
     background: #fff;
